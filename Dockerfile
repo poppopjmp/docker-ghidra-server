@@ -1,6 +1,6 @@
 FROM openjdk:11-jdk-slim
 
-ENV VERSION 10.1.3_PUBLIC
+ENV VERSION 10.1.5_PUBLIC
 ENV DL https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.1.5_build/ghidra_10.1.5_PUBLIC_20220726.zip
 ENV GHIDRA_SHA 17db4ba7d411d11b00d1638f163ab5d61ef38712cd68e462eb8c855ec5cfb5ed
 
