@@ -10,6 +10,7 @@ Standing up a Ghidra Server in the cloud is a pain. It doesn't have to be. If yo
 
 ```bash
 bytehow/ghidra-server   latest
+bytehow/ghidra-server   10.2.2
 bytehow/ghidra-server   10.1.5
 bytehow/ghidra-server   9.2      
 bytehow/ghidra-server   9.1.2    
@@ -26,7 +27,7 @@ Start the server and connect to port 13100 with a Ghidra client that has a **mat
 ### Public Server
 
 ```bash
-$ docker run -it --rm \
+docker run -it --rm \
     --name ghidra-server \
     -e GHIDRA_USERS="admin bytehow" \
     -v /path/to/repos:/repos \
@@ -37,7 +38,7 @@ $ docker run -it --rm \
 ### Local-only Server
 
 ```bash
-$ docker run -it --rm \
+docker run -it --rm \
     --name ghidra-server \
     -e GHIDRA_USERS="admin bytehow" \
     -e GHIDRA_PUBLIC_HOSTNAME="0.0.0.0" \
