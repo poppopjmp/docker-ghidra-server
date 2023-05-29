@@ -10,6 +10,7 @@ Standing up a Ghidra Server in the cloud is a pain. It doesn't have to be. If yo
 
 ```bash
 bytehow/ghidra-server   latest
+bytehow/ghidra-server   10.3
 bytehow/ghidra-server   10.2.2
 bytehow/ghidra-server   10.1.5
 bytehow/ghidra-server   9.2      
