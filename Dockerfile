@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:25-jdk-slim
 
 ENV VERSION 11.0.3_PUBLIC
 ENV DL https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.0.3_build/ghidra_11.0.3_PUBLIC_20240410.zip
